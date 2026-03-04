@@ -1,0 +1,18 @@
+{
+  "name": "comp-slide-deck",
+  "version": "1.0.0",
+  "description": "Tech compensation slide deck — RSU, ISO, NQSO",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --base /CompSlideDeck/",
+    "export": "slidev export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@slidev/cli": "^52.14.1",
+    "@slidev/theme-seriph": "^0.25.0"
+  }
+}

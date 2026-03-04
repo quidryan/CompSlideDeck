@@ -1,0 +1,150 @@
+/*
+ * Custom styles for comp-slide-deck
+ * Extends the seriph theme with financial presentation utilities
+ */
+
+/* ============================================================
+   CALLOUT BOXES
+   Require raw HTML in slides (Slidev supports this natively)
+   ============================================================ */
+
+/* Blue info callout */
+.callout {
+  background: rgba(56, 189, 248, 0.10);
+  border-left: 5px solid #38bdf8;
+  border-radius: 6px;
+  padding: 14px 20px;
+  margin: 1em 0;
+  font-size: 0.88em;
+  line-height: 1.5;
+}
+
+/* Orange warning callout */
+.warning {
+  background: rgba(251, 146, 60, 0.10);
+  border-left: 5px solid #fb923c;
+  border-radius: 6px;
+  padding: 14px 20px;
+  margin: 1em 0;
+  font-size: 0.88em;
+  line-height: 1.5;
+}
+
+/* Green positive-outcome callout */
+.gain {
+  background: rgba(74, 222, 128, 0.10);
+  border-left: 5px solid #4ade80;
+  border-radius: 6px;
+  padding: 14px 20px;
+  margin: 1em 0;
+  font-size: 0.88em;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   DRAMATIC NUMBER DISPLAY
+   Use for key financial figures that should land emotionally
+   ============================================================ */
+
+.big-number {
+  display: block;
+  font-size: 3.2em;
+  font-weight: 700;
+  text-align: center;
+  color: #4ade80;
+  letter-spacing: -0.02em;
+  margin: 0.2em 0;
+  line-height: 1;
+}
+
+.big-number.red   { color: #f87171; }
+.big-number.blue  { color: #38bdf8; }
+.big-number.amber { color: #fb923c; }
+
+/* ============================================================
+   TWO-COLUMN LAYOUT
+   ============================================================ */
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.columns.thirds {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.columns.wide-left {
+  grid-template-columns: 2fr 1fr;
+}
+
+/* ============================================================
+   TABLE OVERRIDES
+   Seriph has decent table styles; these make them more readable
+   for financial comparison data
+   ============================================================ */
+
+table {
+  width: 100%;
+  font-size: 0.85em;
+  border-collapse: collapse;
+}
+
+th {
+  background: rgba(56, 189, 248, 0.20);
+  color: #e2e8f0;
+  font-weight: 600;
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 2px solid #38bdf8;
+}
+
+td {
+  padding: 8px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  vertical-align: top;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Subtle alternating row shading */
+tbody tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* ============================================================
+   CODE BLOCK OVERRIDES
+   ============================================================ */
+
+.slidev-code {
+  font-size: 0.82em !important;
+}
+
+/* Inline code in prose */
+:not(pre) > code {
+  background: rgba(56, 189, 248, 0.15);
+  color: #7dd3fc;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* ============================================================
+   UTILITY CLASSES
+   ============================================================ */
+
+.muted {
+  color: #64748b;
+  font-size: 0.85em;
+}
+
+.center {
+  text-align: center;
+}
+
+.mt-4 { margin-top: 1rem; }
+.mt-8 { margin-top: 2rem; }
