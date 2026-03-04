@@ -26,13 +26,13 @@ layout: section
 
 # Total Comp (TC)
 
-### What you're actually being paid
+### Your street cred on blind
 
 ---
 
 # What Is Total Comp?
 
-Most job postings lead with **base salary**. That's only part of the picture.
+Most tech job listings do show total comp — but it's easy to find a listing that only shows base salary. Always check, and always ask.
 
 <div class="columns mt-4">
 <div>
@@ -41,7 +41,7 @@ Most job postings lead with **base salary**. That's only part of the picture.
 
 <v-clicks>
 
-- Base Salary
+- **Base Salary**
 - Annual Cash Bonus
 - **Equity** (RSU / ISO / NQSO)
 - Benefits (401k match, health)
@@ -126,8 +126,9 @@ RSUs are grants of **actual company stock**, delivered to you on a vesting sched
 - Used by **public companies**: Google, Meta, Microsoft, Apple, Amazon
 - You receive real shares — **no purchase required**
 - Taxed as **ordinary income** when they vest (treated like a paycheck by the IRS)
-- Shares go directly into your brokerage account at vest
-- No exercise decision — they just appear
+- At vest you **must** pay taxes — two common choices:
+  - **Sell to cover** — company sells just enough shares to cover tax withholding
+  - **Sell all** — sell the full lot at vest, take cash, no market risk after that
 
 </v-clicks>
 
@@ -149,14 +150,16 @@ RSUs are grants of **actual company stock**, delivered to you on a vesting sched
 
 <v-click>
 
-Standard 4-year schedule with a 1-year cliff:
+Typical schedule: **3 or 4 years** with a 1-year cliff, then quarterly:
 
-| Year | Event | Shares Received | Cumulative |
+| Period | Event | Shares | Cumulative |
 |---|---|---|---|
-| Year 1 | Cliff vest | 25% (1,000 shares) | 1,000 |
-| Year 2 | Quarterly | 25% (1,000 shares) | 2,000 |
-| Year 3 | Quarterly | 25% (1,000 shares) | 3,000 |
-| Year 4 | Quarterly | 25% (1,000 shares) | 4,000 |
+| Month 12 | 1-year cliff | **1,000** | 1,000 |
+| Month 15 | Year 2 Q1 | 250 | 1,250 |
+| Month 18 | Year 2 Q2 | 250 | 1,500 |
+| Month 21 | Year 2 Q3 | 250 | 1,750 |
+| Month 24 | Year 2 Q4 | 250 | 2,000 |
+| Months 27–48 | Years 3–4 (same) | 250/qtr | 4,000 |
 
 </v-click>
 
@@ -164,7 +167,7 @@ Standard 4-year schedule with a 1-year cliff:
 
 <div class="callout mt-4">
 
-**The cliff** means if you leave before your 1-year anniversary, you receive **zero** equity. After the cliff, vesting typically happens quarterly or monthly.
+**The cliff** means if you leave before your 1-year anniversary, you receive **zero** equity. After the cliff, 250 shares land every quarter.
 
 </div>
 
@@ -174,25 +177,20 @@ Standard 4-year schedule with a 1-year cliff:
 
 # Offer Letter: Reading the RSU Section
 
-<v-click>
-
-A real offer letter will say something like:
-
-> *"You will receive a grant of 4,000 Restricted Stock Units, subject to a 4-year vesting schedule with a 1-year cliff, vesting quarterly thereafter."*
-
-</v-click>
+<div class="columns">
+<div>
 
 <v-click>
 
-What you need to calculate from that:
+What to look for:
 
 </v-click>
 
 <v-clicks>
 
-- **Grant value at hire:** shares × current stock price
-- **Annualized value:** grant value ÷ 4 years
-- **Your actual cliff risk:** 12 months with nothing vested
+- **Grant value** — stated in dollars, converted to shares at grant date
+- **Vesting schedule** — 3 or 4 years, 1-year cliff
+- **Annualized value** — grant ÷ vesting years
 
 </v-clicks>
 
@@ -200,11 +198,23 @@ What you need to calculate from that:
 
 <div class="warning mt-4">
 
-The grant is denominated in **shares**, not dollars. The dollar value will change with the stock price. The offer letter's stated dollar value is a snapshot, not a guarantee.
+The grant is denominated in **shares**, not dollars. The dollar value changes with stock price — the offer letter number is a snapshot, not a guarantee.
 
 </div>
 
 </v-click>
+
+</div>
+<div>
+
+<v-click>
+
+![Roblox offer letter (numbers redacted)](/offer-letter.png)
+
+</v-click>
+
+</div>
+</div>
 
 ---
 
@@ -212,7 +222,7 @@ The grant is denominated in **shares**, not dollars. The dollar value will chang
 
 <v-click>
 
-**The offer:** $150,000 base salary + $200,000 RSU grant over 4 years
+**The offer:** $150,000 base salary + $200,000 RSU grant over 4 years *(3-year grants also common)*
 
 </v-click>
 
