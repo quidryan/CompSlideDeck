@@ -144,16 +144,12 @@ layout: section
 
 RSUs are grants of **actual company stock**, delivered to you on a vesting schedule.
 
-<v-clicks>
-
 - Used by **public companies**: Google, Meta, Microsoft, Apple, Amazon
 - You receive real shares — **no purchase required**
 - Taxed as **ordinary income** when they vest (treated like a paycheck by the IRS)
 - At vest you **must** pay taxes — two common choices:
   - **Sell to cover** — company sells just enough shares to cover tax withholding
   - **Sell all** — sell the full lot at vest, take cash, no market risk after that
-
-</v-clicks>
 
 <v-click>
 
@@ -200,21 +196,11 @@ Typical schedule: **3 or 4 years** with a 1-year cliff, then 250 shares every qu
 <div class="columns">
 <div>
 
-<v-click>
-
 What to look for:
-
-</v-click>
-
-<v-clicks>
 
 - **Grant value** — stated in dollars, converted to shares at grant date
 - **Vesting schedule** — 3 or 4 years, 1-year cliff
 - **Annualized value** — grant ÷ vesting years
-
-</v-clicks>
-
-<v-click>
 
 <div class="warning mt-4">
 
@@ -222,16 +208,10 @@ The grant is denominated in **shares**, not dollars. The dollar value changes wi
 
 </div>
 
-</v-click>
-
 </div>
 <div>
 
-<v-click>
-
 ![Roblox offer letter (numbers redacted)](/offer-letter.png)
-
-</v-click>
 
 </div>
 </div>
@@ -409,15 +389,11 @@ layout: section
 
 ISOs give you the **right to purchase** company stock at a fixed price, called the **strike price** (or exercise price).
 
-<v-clicks>
-
 - Used almost exclusively by **private startups**
 - Strike price = Fair Market Value (FMV) on the grant date — often pennies
 - You do **not** receive shares automatically — you must **exercise** (pay) for them
 - Special tax treatment: if you hold properly, gains may qualify as long-term capital gains (LTCG)
 - There is a **10-year expiration** window to exercise
-
-</v-clicks>
 
 <v-click>
 
@@ -506,8 +482,6 @@ AMT owed on $499,000 spread  →  can exceed $150,000
 
 You have **0.1% equity** in a startup. Two paths, 10 years.
 
-<v-click>
-
 <div class="columns">
 <div>
 
@@ -538,8 +512,6 @@ You have **0.1% equity** in a startup. Two paths, 10 years.
 </div>
 </div>
 
-</v-click>
-
 <v-click>
 
 <div class="callout mt-4">
@@ -565,15 +537,11 @@ layout: section
 
 NQSOs are stock options with **simpler but less favorable tax treatment** than ISOs.
 
-<v-clicks>
-
 - Used by public companies — **Netflix is the most prominent example**
 - Strike price set at FMV on grant date
 - **Taxed as ordinary income at exercise** on the spread (FMV − strike), regardless of holding period
 - No AMT complication
 - The remainder (if you hold shares after exercise) is taxed as capital gains when sold
-
-</v-clicks>
 
 <v-click>
 
