@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://cover.sli.dev
+background: https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1920&q=80
 transition: slide-left
 highlighter: shiki
 lineNumbers: false
@@ -21,12 +21,41 @@ Not financial advice. Consult a CPA for your specific situation.
 
 ---
 transition: fade
-layout: section
+layout: center
+class: text-center
 ---
 
-# Total Comp (TC)
+# First: Have You Been on Blind?
 
-### Your street cred on blind
+<v-click>
+
+**[Teamblind.com](https://teamblind.com)** — the anonymous professional network, verified by your work email.
+Where tech workers go to *actually* tell the truth about work.
+
+</v-click>
+
+<v-click>
+
+Layoffs, comp bands, bad managers, leveling disputes... it's all there.
+But the *hottest* topic on every thread?
+
+</v-click>
+
+<v-click>
+
+<div class="big-number blue" style="font-size: 2em; margin: 0.4em 0">"What's your TC?"</div>
+
+</v-click>
+
+<v-click>
+
+<div class="callout text-left mt-4">
+
+TC — Total Compensation — is your street cred on Blind. If you don't know yours, you'll feel lost in these conversations. Let's fix that.
+
+</div>
+
+</v-click>
 
 ---
 
@@ -39,20 +68,14 @@ Most tech job listings do show total comp — but it's easy to find a listing th
 
 **Typical TC Components**
 
-<v-clicks>
-
 - **Base Salary**
 - Annual Cash Bonus
 - **Equity** (RSU / ISO / NQSO)
 - Benefits (401k match, health)
 - Signing Bonus *(one-time)*
 
-</v-clicks>
-
 </div>
 <div>
-
-<v-click>
 
 **Why it matters**
 
@@ -60,14 +83,14 @@ At a FAANG-tier company, equity can be **50–200%** of base salary in expected 
 
 Ignoring it means comparing a $200K TC offer to a $130K one as if they're the same.
 
-</v-click>
+At senior and director levels, **base salary levels off** — equity can be **80%+ of TC**. The stock *is* the compensation.
 
 </div>
 </div>
 
 <v-click>
 
-<div class="callout mt-8">
+<div class="callout mt-4">
 
 **Rule of thumb:** Annualized equity value = Total grant value ÷ Vesting years. Always add this to base when comparing offers.
 
@@ -150,16 +173,13 @@ RSUs are grants of **actual company stock**, delivered to you on a vesting sched
 
 <v-click>
 
-Typical schedule: **3 or 4 years** with a 1-year cliff, then quarterly:
+Typical schedule: **3 or 4 years** with a 1-year cliff, then 250 shares every quarter:
 
 | Period | Event | Shares | Cumulative |
 |---|---|---|---|
-| Month 12 | 1-year cliff | **1,000** | 1,000 |
-| Month 15 | Year 2 Q1 | 250 | 1,250 |
-| Month 18 | Year 2 Q2 | 250 | 1,500 |
-| Month 21 | Year 2 Q3 | 250 | 1,750 |
-| Month 24 | Year 2 Q4 | 250 | 2,000 |
-| Months 27–48 | Years 3–4 (same) | 250/qtr | 4,000 |
+| Month 12 | 1-year cliff vest | **1,000** | 1,000 |
+| Months 15 / 18 / 21 / 24 | Year 2 quarterly (×4) | 250 each | 2,000 |
+| Months 27–36 / 39–48 | Years 3–4 quarterly | 250 each | 4,000 |
 
 </v-click>
 

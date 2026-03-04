@@ -93,27 +93,28 @@ table {
 }
 
 th {
-  background: rgba(56, 189, 248, 0.20);
-  color: #e2e8f0;
-  font-weight: 600;
-  padding: 10px 14px;
-  text-align: left;
-  border-bottom: 2px solid #38bdf8;
+  background: #1a5276 !important;  /* solid dark navy-blue — readable on any theme bg */
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  padding: 10px 14px !important;
+  text-align: left !important;
+  border-bottom: 3px solid #38bdf8 !important;
 }
 
 td {
-  padding: 8px 14px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  padding: 8px 14px !important;
+  border-bottom: 1px solid rgba(100, 116, 139, 0.3) !important;
   vertical-align: top;
+  color: inherit;
 }
 
 tr:last-child td {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 /* Subtle alternating row shading */
 tbody tr:nth-child(even) td {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(100, 116, 139, 0.08) !important;
 }
 
 /* ============================================================
