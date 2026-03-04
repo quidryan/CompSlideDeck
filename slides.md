@@ -51,7 +51,7 @@ But the *hottest* topic on every thread?
 
 <div class="callout text-left mt-4">
 
-TC — Total Compensation — is your street cred on Blind. If you don't know yours, you'll feel lost in these conversations. Let's fix that.
+TC — Total Compensation — is your street cred on Blind. If you don't know yours, you won't be able to participate — and no one will listen to you. Let's fix that.
 
 </div>
 
@@ -487,15 +487,14 @@ You have **0.1% equity** in a startup. Two paths, 10 years.
 
 **Startup Path**
 
-- 2026: Join, strike price $0.10
-- Multiple funding rounds → dilution
-- 2036: IPO at $80/share
-- Valuation: $2B
-- 0.1% pre-dilution: ~$2,000,000
+- 2026: Join, strike price $0.10/share
+- Series A → B → C → D: ~65% dilution across 4+ rounds
+- 2036: IPO, $10B valuation
+- 0.1% pre-dilution → ~0.035% post-dilution
 
-*After dilution (typical 40–60%), taxes, lockup risk, AMT:*
+**Gross value: ~$3.5M**
 
-**Realistic net: $400K–$900K**
+*Illiquid until IPO · lockup period · AMT at exercise*
 
 </div>
 <div>
@@ -505,9 +504,8 @@ You have **0.1% equity** in a startup. Two paths, 10 years.
 - $175K base × 10 yrs = $1.75M
 - $100K/yr RSU (refreshed) × 10 = $1M
 - Liquid at each vest
-- No AMT, no lockup
 
-**Total: ~$2.75M — predictable**
+**~$2.75M — predictable**
 
 </div>
 </div>
@@ -516,7 +514,7 @@ You have **0.1% equity** in a startup. Two paths, 10 years.
 
 <div class="callout mt-4">
 
-The startup wins only if: the exit is large AND you survive dilution AND timing and taxes work in your favor. FAANG is the **risk-adjusted winner** for most people at most startups. The lottery-ticket scenario is real but rare.
+Both figures are pre-tax. The startup wins — **if** it reaches a $10B exit. Most don't. You're also betting on staying 10 years through 4+ funding rounds and a lockup. FAANG is the lower-variance path for most people.
 
 </div>
 
@@ -557,34 +555,27 @@ NQSOs are stock options with **simpler but less favorable tax treatment** than I
 
 # NQSOs: The Netflix Model
 
-Netflix famously offers employees a **choice** between RSUs and NQSOs — more options for higher upside if you believe in the stock.
+Netflix lets employees convert part of their **salary into NQSOs**. Each option is priced using Black-Scholes at ~40% of the stock price — so you get leverage: more economic exposure per dollar of salary.
 
 <v-click>
 
-**NQSO example:**
-
 ```
-Grant: 1,000 NQSOs  |  Strike price: $500/share
-Current stock price: $700/share
+Stock: $700/share  →  option priced at $280 (40% Black-Scholes value)
 
-Intrinsic value = ($700 − $500) × 1,000 = $200,000
+Convert $10,000 salary  →  35 options at $700 strike
 ```
 
 </v-click>
 
 <v-click>
 
-**To exercise:**
+**If stock doubles to $1,400:**
 
 ```
-Cost to buy shares: 1,000 × $500 = $500,000 cash outlay
-Shares worth:       1,000 × $700 = $700,000
-
-Spread taxed as W-2 income: $200,000
-Tax on spread (~37% bracket): ~$74,000
-
-Net gain after tax: ~$126,000
+35 options × ($1,400 − $700) = $24,500
 ```
+
+$10K of salary → $24.5K. The leverage is the entire point.
 
 </v-click>
 
@@ -592,7 +583,7 @@ Net gain after tax: ~$126,000
 
 <div class="warning mt-4">
 
-You need **cash to exercise** NQSOs — or do a same-day sale (exercise + immediately sell). They don't appear in your account automatically like RSUs.
+If the stock stays flat or drops, those options expire worthless — you permanently gave up that salary.
 
 </div>
 
@@ -615,8 +606,6 @@ You need **cash to exercise** NQSOs — or do a same-day sale (exercise + immedi
 
 ---
 transition: fade
-layout: center
-class: text-center
 ---
 
 # Key Takeaways
