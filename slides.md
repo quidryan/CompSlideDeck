@@ -191,6 +191,48 @@ Typical schedule: **3 or 4 years** with a 1-year cliff, then 250 shares every qu
 
 ---
 
+# Vesting Distribution: Even vs. Front-Loaded
+
+Not all vesting schedules distribute shares equally each year.
+
+<v-click>
+
+**Even distribution** — shares split equally across 3 or 4 years:
+
+| Year | Shares (4yr, 4,000 total) | Shares (3yr, 3,000 total) |
+|---|---|---|
+| 1 | 1,000 | 1,000 |
+| 2 | 1,000 | 1,000 |
+| 3 | 1,000 | 1,000 |
+| 4 | 1,000 | — |
+
+</v-click>
+
+<v-click>
+
+**Front-loaded** — heavier grant in Year 1, tapering down:
+
+| Year | Shares (example) | % of total |
+|---|---|---|
+| 1 | 2,000 | 40% |
+| 2 | 1,200 | 24% |
+| 3 | 1,000 | 20% |
+| 4 | 800 | 16% |
+
+</v-click>
+
+<v-click>
+
+<div class="warning mt-4">
+
+**Why front-load?** The company is competing for your attention now. The intent is that by the time the grant tapers off, a **refresh grant** has been issued — restoring your annual vesting rate. If no refresher comes, your TC quietly drops each year.
+
+</div>
+
+</v-click>
+
+---
+
 # Offer Letter: Reading the RSU Section
 
 <div class="columns">
@@ -255,6 +297,16 @@ $200,000 ÷ $50/share = 4,000 shares total
 <v-click>
 
 Your first year TC: $150,000 base + $50,000 RSU = **$200,000**
+
+</v-click>
+
+<v-click>
+
+<div class="warning mt-4">
+
+**Two practical constraints:** Vests land **quarterly** (not in one annual lump), and you can only sell during company **"open trading windows"** — typically a few weeks after each earnings release. Plan your cash flow accordingly; a vest that lands during a closed window means you can't touch it yet.
+
+</div>
 
 </v-click>
 
@@ -337,6 +389,16 @@ Year 2 TC: $150,000 + $25,000 = **$175,000** — well below the offer letter num
 <v-click>
 
 Many engineers sell shares immediately on vest to lock in the value and avoid this risk. Others hold. Neither is universally right — it depends on your tax situation and conviction in the company.
+
+</v-click>
+
+<v-click>
+
+<div class="callout mt-4">
+
+**One common approach when the stock is down:** sell just enough shares at vest to cover your tax bill ("sell-to-cover"), then wait a few days and sell the remaining shares separately. This can help if you want to give the stock a brief window to recover before exiting your full position.
+
+</div>
 
 </v-click>
 
